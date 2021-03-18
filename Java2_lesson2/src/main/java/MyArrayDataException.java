@@ -1,4 +1,4 @@
-public class MyArrayDataException extends NumberFormatException{
+public class MyArrayDataException extends RuntimeException{
     private int row;
     private int column;
     String array;
